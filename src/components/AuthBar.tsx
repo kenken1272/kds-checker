@@ -165,7 +165,7 @@ export const AuthBar = ({ onSave, canSave, isSaving, saveDisabledReason }: AuthB
   const activeHref = useMemo(() => pathname ?? "", [pathname]);
 
   return (
-    <header className="glass-surface relative z-40 mx-auto mb-8 flex w-full max-w-6xl flex-col gap-4 px-5 py-4 shadow-xl sm:flex-row sm:items-center sm:justify-between sm:px-6">
+  <header className="glass-surface relative z-40 mx-auto mb-8 mt-8 flex w-full max-w-6xl flex-col gap-4 px-5 py-4 shadow-xl sm:mt-10 sm:flex-row sm:items-center sm:justify-between sm:px-6">
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-6">
         <div>
           <span className="soft-badge">KDS Checker</span>
